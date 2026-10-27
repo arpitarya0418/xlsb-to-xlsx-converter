@@ -1,0 +1,7 @@
+streamlit>=1.50.0
+pandas
+openpyxl>=3.1
+pyxlsb>=1.0.10
+xlsxwriter>=3.1
+# Only installed on Windows (local use with desktop Excel). Skipped on Streamlit Cloud (Linux).
+pywin32>=306; sys_platform == "win32"
